@@ -68,3 +68,27 @@ with h5py.File(file_name, 'w') as f:
     f.create_dataset("input_times", data = input_times)
     f.create_dataset('output_times', data = output_times)
 
+
+# In[ ]:
+
+
+def data_augmentation():
+    """Create synthetic price data using GANs or bootstrapping for more robust training."""
+    pass
+
+
+# In[ ]:
+
+
+def multi_currency_support():
+    """Modify your pipeline to train on multiple cryptocurrencies (ETH, XRP, BNB)."""
+    pass
+
+
+# In[ ]:
+
+
+def timeframe_resampler():
+    """Support different timeframes (1 min, 15 min, 1 hour) by resampling data."""
+    pass
+

@@ -160,28 +160,14 @@ plt.show()
 
 
 # In[ ]:
-def plot_feature_importance():
-    """Plot which features affect prediction the most."""
+def save_model_to_cloud():
+    """Save/load models from AWS S3, GCP, or Azure."""
     pass
-
-def plot_prediction_uncertainty():
-    """Show prediction confidence interval (Monte Carlo Dropout)."""
+def predict_api():
+    """Create a Flask/FastAPI endpoint to return price prediction in real-time."""
     pass
-
-def real_time_dashboard():
-    """Create a web-based dashboard using Streamlit to display live predictions."""
-    pass
-
-def backtesting():
-    """Implement a trading strategy (buy/sell signals) and simulate profit over historical data."""
-    pass
-
-def risk_management():
-    """Add stop-loss and take-profit conditions based on predicted volatility."""
-    pass
-
-def portfolio_optimization():
-    """Build a portfolio strategy optimizing Sharpe ratio using predicted prices."""
+def run_on_edge():
+    """Optimize model with Tensorflow Lite for mobile/edge devices."""
     pass
 
 

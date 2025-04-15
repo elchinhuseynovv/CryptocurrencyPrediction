@@ -172,6 +172,18 @@ def real_time_dashboard():
     """Create a web-based dashboard using Streamlit to display live predictions."""
     pass
 
+def backtesting():
+    """Implement a trading strategy (buy/sell signals) and simulate profit over historical data."""
+    pass
+
+def risk_management():
+    """Add stop-loss and take-profit conditions based on predicted volatility."""
+    pass
+
+def portfolio_optimization():
+    """Build a portfolio strategy optimizing Sharpe ratio using predicted prices."""
+    pass
+
 
 
 

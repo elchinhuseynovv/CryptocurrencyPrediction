@@ -156,22 +156,20 @@ plt.plot(output_times[-1000:],ground_true[-1000:])
 plt.plot(output_times[-1000:],predicted_inverted[-1000:])
 
 # In[ ]:
-
-
 plt.show()
 
 
 # In[ ]:
-def add_attention_layer():
-    """Integrate attention mechanism on top of LSTM/GRU to focus on important time steps."""
+def plot_feature_importance():
+    """Plot which features affect prediction the most."""
     pass
 
-def hybrid_model():
-    """Combine CNN + LSTM/GRU in a stacked architecture."""
+def plot_prediction_uncertainty():
+    """Show prediction confidence interval (Monte Carlo Dropout)."""
     pass
 
-def hyperparameter_optimizer():
-    """Use tools like Optuna or Keras Tuner for automated hyperparameter search."""
+def real_time_dashboard():
+    """Create a web-based dashboard using Streamlit to display live predictions."""
     pass
 
 

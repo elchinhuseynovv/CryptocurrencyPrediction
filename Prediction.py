@@ -162,6 +162,17 @@ plt.show()
 
 
 # In[ ]:
+def add_attention_layer():
+    """Integrate attention mechanism on top of LSTM/GRU to focus on important time steps."""
+    pass
+
+def hybrid_model():
+    """Combine CNN + LSTM/GRU in a stacked architecture."""
+    pass
+
+def hyperparameter_optimizer():
+    """Use tools like Optuna or Keras Tuner for automated hyperparameter search."""
+    pass
 
 
 
